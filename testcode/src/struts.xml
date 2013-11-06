@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="default" namespace="/" extends="struts-default">
+		<action name="ActivityAction" class="action.ActivityAction">
+			<result name="activity">activity.jsp</result>
+			<result name="activity-2g">activity-2g.jsp</result>
+			<result name="showActivityWin">showActivityWin.jsp</result>
+			<result name="error">error.jsp</result>
+			<result name="to_new_page">to_new_page.jsp</result>
+			<result name="deliverSkey">deliverSkey.jsp</result>
+			<result name="deliverSkey-2g">deliverSkey-2g.jsp</result>
+			<result name="showActivity">showActivity.jsp</result>
+			<result name="keFu">keFu.jsp</result>
+			<result name="showMyActivity">showMyActivity.jsp</result>
+			<result name="noMiddleActivity">
+				noMiddleActivity.jsp
+			</result>
+			<result name="showIssueWin">showIssueWin.jsp</result>
+			<result name="userSet">userSet.jsp</result>
+			<result name="noPhoenUserSet">noPhoenUserSet.jsp</result>
+			<result name="addClick">addClick.jsp</result>
+			<result name="consume">consume.jsp</result>
+			<result name="accurate">accurate.jsp</result>
+			<result name="realTime">realTime.jsp</result>
+			<result name="vacOrder">vacOrder.jsp</result>
+			<result name="toWyy">toWyy.jsp</result>
+			<result name="goWyyIphone">goWyyIphone.jsp</result>
+			<result name="goWyyAnzhuo">goWyyAnzhuo.jsp</result>
+			<result name="phoneFlowBag">phoneFlowBag.jsp</result>
+			<result name="goPhoneFlowBag">goPhoneFlowBag.jsp</result>
+			<!-- 2g -->
+			<result name="noMiddleActivity-2g">
+				noMiddleActivity-2g.jsp
+			</result>
+			<result name="showMyActivity-2g">
+				showMyActivity-2g.jsp
+			</result>
+			<result name="showActivity-2g">showActivity-2g.jsp</result>
+			<result name="showActivityWin-2g">
+				showActivityWin-2g.jsp
+			</result>
+			<result name="goTask-2g">goTask-2g.jsp</result>
+			<result name="userSet-2g">userSet-2g.jsp</result>
+			<result name="showIssueWin-2g">showIssueWin-2g.jsp</result>
+			<result name="keFu-2g">keFu-2g.jsp</result>
+			<result name="goDownPage">goDownPage.jsp</result>
+			<result name="wangxian">wangxian.jsp</result>
+			<result name="weishi">weishi.jsp</result>
+			<result name="jinshan">jinshan.jsp</result>
+			<result name="azsc">azsc.jsp</result>
+			<result name="wpjyz">wpjyz.jsp</result>
+			<result name="youyuanwang">youyuanwang.jsp</result>
+			<result name="showDownPage">showDownPage.jsp</result>
+			<result name="showDownPage-2g">showDownPage-2g.jsp</result>
+			<result name="goPage">goPage.jsp</result>
+			<result name="souhu">souhu.jsp</result>
+			<result name="jmj">jmj.jsp</result>
+			<result name="jmj-2g">jmj-2g.jsp</result>
+			<result name="tojmj">tojmj.jsp</result>
+			<result name="baidu">baidu.jsp</result>
+			<result name="yidao">yidao.jsp</result>
+			<result name="yidao-2g">yidao-2g.jsp</result>
+			<result name="toyidao">toyidao.jsp</result>
+			<result name="dmyy">dmyy.jsp</result>
+			<result name="toVacOrder">toVacOrder.jsp</result>
+			<result name="hao123">hao123.jsp</result>
+			<result name="showTask">showTask.jsp</result>
+			<result name="feiyue">feiyue.jsp</result>
+			<result name="xiaoao">xiaoao.jsp</result>
+			<result name="wyy">wyy.jsp</result>
+			<result name="toWyy-2g">toWyy-2g.jsp</result>
+			<result name="goTask">goTask.jsp</result>
+			<result name="vacNewspaper">vacNewspaper.jsp</result>
+			<result name="goVac">goVac.jsp</result>
+			<result name="goMusic">goMusic.jsp</result>
+			<result name="musicHFriends">musicHFriends.jsp</result>
+			<result name="mobileTv">mobileTv.jsp</result>
+			<result name="huaShuo">huaShuo.jsp</result>
+			<result name="BTV">BTV.jsp</result>
+			<result name="toSeedSms">toSeedSms.jsp</result>
+			<result name="smsSet">smsSet.jsp</result>
+			<result name="sign">sign.jsp</result>
+			<result name="fenxiang">fenxiang.jsp</result>
+			<result name="goWyyAnzhuo-2g">goWyyAnzhuo-2g.jsp</result>
+			<result name="feiyue-2g">feiyue-2g.jsp</result>
+			<result name="fenxiang-2g">fenxiang-2g.jsp</result>
+			<result name="gofenxiang-2g">gofenxiang-2g.jsp</result>
+			<result name="toSeedSms-2g">toSeedSms-2g.jsp</result>
+			<result name="smsSet-2g">smsSet-2g.jsp</result>
+			<result name="gorandomContinue-2g">
+				gorandomContinue-2g.jsp
+			</result>
+			<result name="gorandomStop-2g">gorandomStop-2g.jsp</result>
+			<result name="sign-2g">sign-2g.jsp</result>
+			<result name="gosign-2g">gosign-2g.jsp</result>
+			<result name="showThisIssue">showThisIssue.jsp</result>
+			<result name="showThisIssue-2g">
+				showThisIssue-2g.jsp
+			</result>
+			<result name="showNextIssue">showNextIssue.jsp</result>
+			<result name="showNextIssue-2g">
+				showNextIssue-2g.jsp
+			</result>
+			<result name="phoneFlowBag-2g">phoneFlowBag-2g.jsp</result>
+			<result name="goPhoneFlowBag-2g">goPhoneFlowBag-2g.jsp</result>
+			<result name="goyingyeting">goyingyeting.jsp</result>
+			<result name="yingyeting">yingyeting.jsp</result>
+			<result name="yingyeting-2g">yingyeting-2g.jsp</result>
+			<result name="golingxi">golingxi.jsp</result>
+			<result name="lingxi">lingxi.jsp</result>
+			<result name="lingxi-2g">lingxi-2g.jsp</result>
+		</action>
+
+		<action name="RandomNumber" class="action.RandomNumberAction">
+			<result name="noMiddleActivity-2g">
+				noMiddleActivity-2g.jsp
+			</result>
+			<result name="noMiddleActivity-login">
+				noMiddleActivity-login.jsp
+			</result>
+			<result name="noMiddleActivity">
+				noMiddleActivity.jsp
+			</result>
+		</action>
+
+		<action name="Statistics" class="action.Statistics">
+			<result name="statistics">statistics.jsp</result>
+		</action>
+		<action name="Attend" class="action.Attend">
+			<result name="attend">attend.jsp</result>
+			<result name="queryInUrl">queryInUrl.jsp</result>
+		</action>
+
+		<action name="RwdStatic" class="action.RwdStatic">
+			<result name="rwdStatic">rwdStatic.jsp</result>
+		</action>
+
+		<action name="TestHttpRequest" class="action.TestHttpRequest">
+
+		</action>
+
+		<action name="SeedSmsPhone" class="action.SeedSmsPhone">
+			<result name="noMiddleActivity-2g">
+				noMiddleActivity-2g.jsp
+			</result>
+			<result name="toIndex">index.jsp</result>
+			<result name="goseedsms-2g">goseedsms-2g.jsp</result>
+		</action>
+
+		<action name="ActivityShow" class="action.ActivityShow">
+			<result name="noMiddleActivity-2g">
+				noMiddleActivity-2g.jsp
+			</result>
+			<result name="toShowTask">toShowTask.jsp</result>
+			<result name="ShowTask-2g">ShowTask-2g.jsp</result>
+			<result name="sign-2g">sign-2g.jsp</result>
+			<result name="toSeedSms-2g">toSeedSms-2g</result>
+			<result name="smsSet-2g">smsSet-2g.jsp</result>
+			<result name="fenxiang-2g">fenxiang-2g.jsp</result>
+			<result name="vacNewspaper-2g">vacNewspaper-2g.jsp</result>
+		</action>
+		<action name="PaiHangAction" class="action.PaiHangAction">
+			<result name="noMiddleActivity-2g">
+				noMiddleActivity-2g.jsp
+			</result>
+			<result name="topaihang">topaihang.jsp</result>
+		</action>
+		<action name="DateQuery" class="action.DateQuery">
+			<result name="dateQuery">dateQuery.jsp</result>
+		</action>
+
+
+		<action name="FiveMarkAction" class="action.FiveMarkAction">
+			<result name="noMiddleActivity-2g">
+				noMiddleActivity-2g.jsp
+			</result>
+			<result name="mark">
+				mark.jsp
+			</result>
+			<result name="mark-2g">
+				mark-2g.jsp
+			</result>
+		</action>
+
+		<action name="Flow" class="action.Flow">
+			<result name="toflow">
+				toflow.jsp
+			</result>
+		</action>
+		
+		<action name="YeJiao" class="action.YeJiao">
+			<result name="noMiddleActivity-2g">
+				noMiddleActivity-2g.jsp
+			</result>
+			<result name="gomenhu">
+				gomenhu.jsp
+			</result>
+		</action>
+		
+		<!-- 积分 -->
+		<action name="Score" class="action.ScoreAction">
+			<result name="myScore">
+				myScore.jsp
+			</result>
+			<result name="gsDetail">getscore-detail.jsp</result>
+			<result name="exDetail">exchange-detail.jsp</result>
+			<result name="score-rule">score-rule.jsp</result>
+			<result name="noMiddleActivity-2g">noMiddleActivity-2g.jsp</result>
+		</action>
+		
+		<action name="AAction" class="action.AAction">
+		</action>
+		<action name="P" class="action.P">
+			<result name="noMiddleActivity-2g">noMiddleActivity-2g.jsp</result>
+		</action>
+	</package>
+</struts>
